@@ -1,15 +1,13 @@
-## PostgreSQL: timestamptz and handling of time zone
+## PostgreSQL: TIMESTAMPTZ and handling of time zone
 
- - [PostgreSQL: timestamptz and handling of time zone](#postgresql-timestamptz-and-handling-of-time-zone)
-     - [Local timezone](#local-timezone)
-     - [Examples](#examples)
-         - [The difference on the output side](#the-difference-on-the-output-side) 
-         - [The difference on the input side](#the-difference-on-the-input-side) 
-     - [Summary from the official documentation](#summary-from-the-official-documentation)
-     - [Best practice](#best-practice)
-         - [Timezone approach](#timezone-approach) 
-         - [No timezone approach](#no-timezone-approach) 
-
+ - [Local timezone](#local-timezone)
+ - [Examples](#examples)
+     - [The difference on the output side](#the-difference-on-the-output-side) 
+     - [The difference on the input side](#the-difference-on-the-input-side) 
+ - [Summary from the official documentation](#summary-from-the-official-documentation)
+ - [Best practice](#best-practice)
+     - [Timezone approach](#timezone-approach) 
+     - [No timezone approach](#no-timezone-approach) 
 
 ---
 
