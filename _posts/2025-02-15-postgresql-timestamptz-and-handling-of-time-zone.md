@@ -1,3 +1,5 @@
+## PostgreSQL: timestamptz and handling of time zone
+
  - [PostgreSQL: timestamptz and handling of time zone](#postgresql-timestamptz-and-handling-of-time-zone)
      - [Local timezone](#local-timezone)
      - [Examples](#examples)
@@ -12,9 +14,6 @@
 ---
 
 ---
-
-
-## PostgreSQL: timestamptz and handling of time zone
 
 PostgreSQL supports two timestamp data types `timestamp without time zone` and `timestamp with time zone`.
 

@@ -1,5 +1,26 @@
 ## Go v1.23 and older releases
 
+ - [Go v1.23](#go-v123)
+     - [Already used features](#already-used-features-of-go-v123)
+     - [Not yet used features](#not-yet-used-interesting-features-of-go-v123)
+ - [Go v1.22](#go-v122)
+     - [Already used features](#already-used-features-of-go-v122)
+     - [Not yet used features](#not-yet-used-interesting-features-of-go-v122)
+ - [Go v1.21](#go-v121)
+     - [Already used features](#already-used-features-of-go-v121)
+     - [Not yet used features](#not-yet-used-interesting-features-of-go-v121)
+ - [Go v1.20](#go-v120)
+     - [Already used features](#already-used-features-of-go-v120)
+     - [Not yet used features](#not-yet-used-interesting-features-of-go-v120)
+ - [Go v1.19](#go-v119)
+     - [Already used features](#already-used-features-of-go-v119)
+     - [Not yet used features](#not-yet-used-interesting-features-of-go-v119)
+ - [Go v1.18](#go-v118)
+
+---
+
+---
+
 I was using Go v1.23 already for several months. However, I decided to go in the past and check
 what new feature was added to Go and its ecosystem since I started as a Go developer.
 
