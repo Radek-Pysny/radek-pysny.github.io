@@ -14,7 +14,7 @@ layout: default
       {% assign author = page.author | default: site.author %}
       {%- if author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
 
       {%- if page.tags -%}
         {% for tag in page.tags %}
@@ -23,6 +23,7 @@ layout: default
            </a>
         {% endfor %}
       {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
