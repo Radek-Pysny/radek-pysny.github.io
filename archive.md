@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Archive
+title: RPblog Archive by Tags
 ---
 
 {% for tag in site.tags %}
