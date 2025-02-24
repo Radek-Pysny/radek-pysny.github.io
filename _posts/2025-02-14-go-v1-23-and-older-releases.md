@@ -1,3 +1,8 @@
+---
+title: 'Go v1.23 and older releases'
+tags: [Go, GoReleaseNotes]
+---
+
 ## Go v1.23 and older releases
 
  - [Go v1.23](#go-v123)

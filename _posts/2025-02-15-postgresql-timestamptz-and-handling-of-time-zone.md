@@ -1,3 +1,8 @@
+---
+title: 'PostgreSQL: TIMESTAMPTZ and handling of time zone'
+tags: [PostgreSQL]
+---
+
 ## PostgreSQL: TIMESTAMPTZ and handling of time zone
 
  - [Local timezone](#local-timezone)
