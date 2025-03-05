@@ -3,7 +3,7 @@ title: 'Representations of signed integers'
 tags: [DataRepresentation]
 ---
 
-## Representations of signed integer
+## Representations of signed integers
 
  - [Overview](#overview)
  - [Sign-magnitude](#sign-magnitude)
