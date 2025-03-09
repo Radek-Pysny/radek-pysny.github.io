@@ -51,7 +51,7 @@ data type).
 
 ### Sign-magnitude
 
-```
+```text
             ^
          *  |
           \ |
@@ -83,7 +83,7 @@ Sign-magnitude is still the most common way of representing the significand (aka
 
 ### One's Complement
 
-```
+```text
             ^
             *
            /|
@@ -113,7 +113,7 @@ This representation is not used much these days.
 
 ### Two's Complement
 
-```
+```text
             ^
             o
            /|
@@ -142,7 +142,7 @@ This is the most often used native representation of signed integers in the curr
 
 ### Offset binary
 
-```
+```text
             ^
             |
             |  *
@@ -175,7 +175,7 @@ while double precision (64b wide) data type is using 11-bit excess-1023.
 
 ### Zig-Zag
 
-```
+```text
             ^
             |
             |  *

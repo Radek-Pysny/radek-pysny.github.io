@@ -65,7 +65,7 @@ All those decimal types are listed in the following table:
 
 
 
-```
+```text
    ---------------------------
    | s |   e   |      m      |
    ---------------------------
@@ -104,7 +104,7 @@ And last but not least, are so-called NaNs, that are used to denote an invalid r
 
 The following axis present whole range of representable floating-point value kinds:
 
-```
+```text
   ^
   | 
   | not-a-numbers
@@ -145,7 +145,7 @@ Normalized number or simply _normal_ floating-point value has no leading zeroes 
 All the zeroes that might appear during calculation are removed by shifting the exponent.
 Normalized numbers are calculated using the following formula:
 
-```
+```text
      sign_bit                         (exponent - bias)
  (-1)           ×   1.mantissa   ×   2
 ```
@@ -156,7 +156,7 @@ Using other words, it is a floating-point value with leading zeroes in mantissa,
 shifted anymore to finish the process of value normalization.
 Denormalized numbers are calculated using the following formula:
 
-```
+```text
      sign_bit                         (1 - bias)
  (-1)           ×  0.mantissa   ×   2
 ```
