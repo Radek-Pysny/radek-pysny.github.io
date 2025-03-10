@@ -1,6 +1,24 @@
 ---
 layout: default
 ---
+<script type="text/javascript">
+  const widthLimit = 1024
+  let totalWidth = window.innerWidth
+  if (totalWidth > widthLimit) {
+    let newMargin = Math.trunc((totalWidth - widthLimit) / 2)
+    let content = document.getElementsByClassName("page-content")
+    if (content.length === 1) {
+      let elems = content[0].children
+      for (let i = 0; i < elems.length; i++) {
+        let elem = elems[i]
+        let style = "max-width: " + widthLimit + "px; margin: 0px " + newMargin + "px 0px " + newMargin + "px"
+        elem.setAttribute("style", style)
+        elem.style = style
+      }
+    }
+  }
+</script>
+
 <link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
