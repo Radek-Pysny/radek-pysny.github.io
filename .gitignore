@@ -1,3 +1,6 @@
 ﻿_site
+.ruby_version
+Gemfile
+Gemfile.lock
 
 .idea/
